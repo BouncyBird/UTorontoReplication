@@ -5,36 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>University of Toronto - Replication</title>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial">
 </head>
 
 <body>
-
-    <div class="flex-container">
-        <div class="flex-container-link">
-            <a href="#" class="text-white flex-container-link mright"><img class="hw-webmail"
-                    src="static/images/webmail.png" alt="Webmail Icon">
-                <p>&nbsp;Webmail</p>
-            </a>
-            <a href="#" class="text-white flex-container-link mright"><img class="hw-quercus"
-                    src="static/images/quercus.png" alt="Quercus Icon">
-                <p>&nbsp;Quercus</p>
-            </a>
-            <a href="#" class="text-white flex-container-link mright"><img class="hw-acorn"
-                    src="static/images/acorn.png" alt="Acorn Icon">
-                <p>&nbsp;Acorn</p>
-            </a>
+    <div id="navbar" style="position: fixed;width:100%">
+        <div class="flex-container">
+            <div class="flex-container-link">
+                <a href="#" class="text-white flex-container-link mright"><img class="hw-webmail"
+                        src="static/images/webmail.png" alt="Webmail Icon">
+                    <p>&nbsp;Webmail</p>
+                </a>
+                <a href="#" class="text-white flex-container-link mright"><img class="hw-quercus"
+                        src="static/images/quercus.png" alt="Quercus Icon">
+                    <p>&nbsp;Quercus</p>
+                </a>
+                <a href="#" class="text-white flex-container-link mright"><img class="hw-acorn"
+                        src="static/images/acorn.png" alt="Acorn Icon">
+                    <p>&nbsp;Acorn</p>
+                </a>
+            </div>
+            <img id="logo" src="static/images/logo.png" alt="U Toronto Logo">
+            <div class="flex-container-link">
+                <button class="jump-to-button"><span class="material-icons">
+                        keyboard_arrow_down
+                    </span>&nbsp;&nbsp;<p class="prightb">JUMP TO</p></button>
+                <button class="search-button"><span class="material-icons">
+                        search
+                    </span>&nbsp;SEARCH</button>
+            </div>
         </div>
-        <img class="cen-img" src="static/images/logo.png" alt="U Toronto Logo">
-        <div class="flex-container-link">
-            <button class="jump-to-button"><span class="material-icons">
-                    keyboard_arrow_down
-                </span>&nbsp;&nbsp;<p class="prightb">JUMP TO</p></button>
-            <button class="search-button"><span class="material-icons">
-                    search
-                </span>&nbsp;SEARCH</button>
+
+        <div class="nav-buttons-flex-container">
+            <button class="nav-buttons">FUTURE STUDENTS</button>
+            <button class="nav-buttons">CURRENT STUDENTS</button>
+            <button class="nav-buttons">ALUMNI</button>
+            <button class="nav-buttons">FACULTY & STAFF</button>
+            <button class="nav-buttons">DONORS</button>
+            <button id="conv-button">CONVOCATION</button>
+        </div>
+
+    </div>
+
+    <div style="height: 175px;width:100%;">
+    </div>
+
+    <div id="hp-bg-text-container">
+        <h1 class="centered hp-bg-text">Congratulations, U of T grads! Watch your
+            virtual&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+            convocation ceremony</h1>
+        <button class="more-button">MORE</button>
+    </div>
+    <!--<img src="https://www.utoronto.ca/sites/default/files/media/banner/homepage-banner-jun16-v1.png"
+        alt="Homepage Image" class="w-full">-->
+
+    <br><br>
+
+    <div class="utogether-div">
+        <img id="utogether-logo"
+            src="https://www.utoronto.ca/sites/default/files/styles/large/public/logo-utogether-homepage.png?itok=uxted6zm"
+            alt="Utogether Logo">
+        <a style="color: white;" href="#">From President Meric Gertler: An update on our planning for fall 2021</a>
+    </div>
+
+    <div class="flex-container2">
+        <div style="width: 30%;margin-right:40px;">
+            <h2><a href="#" style="color: #337ab7;text-decoration: none;">Latest news</a></h2>
+            <img src="https://www.utoronto.ca/sites/default/files/styles/home_page_news__555x196_17/public/Cadarette_01_landscape.jpg?itok=_iW0FiLx"
+                alt="News Image">
+            <br>
+            <p style="color: gray;"><strong>June 25, 2021</strong></p>
+            <h3><a style="color: #337ab7;text-decoration: none;" href="#">U of T researchers create digital 'atlas' to
+                    support effective
+                    planning of pharmacy services</a></h3>
+            <hr>
+            <p style="color: gray;"><strong>June 25, 2021</strong></p>
+            <h3><a style="color: #337ab7;text-decoration: none;" href="#">By connecting with her community, U of T grad
+                    Fatima Azahraa Al Saadie finds academic success</a></h3>
+            <hr>
+            <p style="color: gray;"><strong>June 24, 2021</strong></p>
+            <h3><a style="color: #337ab7;text-decoration: none;" href="#">Michael Samakayi, an international grad,
+                    leaves his mark on U of T with ASL club and course</a></h3>
+            <button class="news-button">MORE OF U OF T NEWS</button>
+        </div>
+        <div style="width: 30%;">
+            <h2><a href="#" style="color: #337ab7;text-decoration: none;">Upcoming virtual events</a></h2>
+            <img style="width: 100%;"
+                src="https://www.utoronto.ca/sites/default/files/styles/large/public/black-graduation-ceremony.png?itok=HuBryxwH"
+                alt="Events Image">
+            <br>
+            <p style="color: gray;"><strong>June 26, 2021</strong></p>
+            <h3><a style="color: #337ab7;text-decoration: none;" href="#">U of T Black Graduation Ceremony</a></h3>
+            <hr>
+            <p style="color: gray;"><strong>June 26, 2021</strong></p>
+            <h3><a style="color: #337ab7;text-decoration: none;" href="#">Blues Around The World - Virtual 5K</a></h3>
+            <hr>
+            <p style="color: gray;"><strong>June 28, 2021</strong></p>
+            <h3><a style="color: #337ab7;text-decoration: none;" href="#">Know Your Employment Rights</a></h3>
+            <button class="news-button">MORE EVENTS</button>
         </div>
     </div>
 
